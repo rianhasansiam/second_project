@@ -139,7 +139,7 @@ header{
     background-color: #ff6a0007;  
     background-repeat: no-repeat;
     background-position: top left,bottom right;
-    background-size: contain
+    background-size: contain;
     
 }
 
@@ -241,7 +241,7 @@ header{
     .img-rian {
         width: 395px;
         height: 368px;
-        margin-left: 17px;
+        margin-left: 20px;
     }
 
         .head-part {
@@ -253,6 +253,7 @@ header{
 
     background-position: 0px 197px;
  background-image: url(./asset/header_bg.png);
+ background-size: 412px;
     
 }
 
@@ -310,7 +311,9 @@ header{
             }
 
 
-
+            nav h3 {
+                margin-left: 20px;
+            }
 
 
 
