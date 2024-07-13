@@ -204,3 +204,113 @@ header{
     color: #474747;margin-top: 7px;
 
 }
+
+
+@media screen and (max-width:567px) {
+   
+    .rian{
+        display: none;
+    }
+  
+
+   .menu button{
+    height: 38px;
+    width: 90px;
+    font-weight: 700;
+    font-size: 14px;
+   }
+
+   nav {
+    margin: 0px;
+}
+  
+.menu{
+    font-size: 12px;
+}
+
+.menu button {
+    height: 27px;
+    width: 57px;
+    font-size: 11px;}
+
+    .menu li {
+        padding: 0px 24px;
+    }
+
+    .img-rian {
+        width: 395px;
+        height: 370px;
+        margin-left: 17px;
+    }
+
+        .head-part {
+            margin: 0px;
+            flex-direction: column-reverse;
+        }
+
+header{
+
+    background-position: 0px 197px;
+ background-image: url(./asset/header_bg.png);
+    
+}
+
+.head-one{
+    width: 412px;
+    margin-top: 50px;
+}
+    
+.head-one h3 {
+    font-size: 35px;}
+
+
+    .head-one h1 {
+        font-size: 55px;
+       }
+
+
+       .head-one .download {
+       
+        width: 150px;
+        font-size: 15px;
+        
+       }
+
+       .head-one .cv {
+        width: 138px;
+        font-size: 16px;
+    }
+       
+       .headbuttton{
+        text-align: center;
+       }
+
+
+       .content {
+        width: 400px;
+        height: 250px;
+        margin-top: 50px;
+        border: none;
+    }
+
+        .container-one {
+            width: 412px;
+            height: 640px;
+        }
+
+
+            .listinfo{
+                flex-direction: column;
+                gap: 12px;
+                margin-top: 65px;
+            }
+
+
+
+
+
+
+
+
+
+}
