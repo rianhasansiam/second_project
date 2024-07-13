@@ -86,6 +86,7 @@ nav{
     color: #949494;
     margin-top: 9px;
     margin-bottom: 47px;
+    margin-left: 20px;
 }
 
 
@@ -261,11 +262,14 @@ header{
 }
     
 .head-one h3 {
-    font-size: 35px;}
+    font-size: 35px;
+    margin-left: 20px;
+    }
 
 
     .head-one h1 {
         font-size: 55px;
+        margin-left: 20px;
        }
 
 
