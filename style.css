@@ -8,7 +8,9 @@
     font-family: "Open Sans", sans-serif;
   }
 
-
+  html{
+    scroll-behavior: smooth;
+}
   /* header design */
 nav h3{
     
@@ -92,14 +94,26 @@ nav{
 
 .head-one .download{
 
-    height: 65px;
-    width: 200px;
-    background-color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
+height: 65px;
+
+width: 200px;
+
+background-color: #FD6E0A;
+
+border: none;
+
+border-radius: 5px;
+
+color: white;
+
+font-size: 18px;
+
+font-weight: 600;
+}
+
+.head-one .download a {
+    text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: 600;
 }
 
 
@@ -114,6 +128,11 @@ nav{
     font-weight: 600;
     margin-left: 20px;
     background-color: white;
+}
+
+.head-one .cv a {
+    text-decoration: none;
+    color: #fd6e0a;
 }
 
 
@@ -737,6 +756,7 @@ margin-top: 2px;
     
        nav {
         margin: 0px;
+        width: 420px;
     }
       
     .menu{
@@ -754,25 +774,27 @@ margin-top: 2px;
     
         .img-rian {
             width: 395px;
-            height: 370px;
+            height: 375px;
             margin-left: 20px;
         }
     
             .head-part {
                 margin: 0px;
                 flex-direction: column-reverse;
+                width: 420px;
             }
     
     header{
     
-        background-position: 0px 197px;
-     background-image: url(./asset/header_bg.png);
-     background-size: 412px;
-        
+background-position: 0px 197px;
+    
+background-image: url(./asset/header_bg.png);
+    
+background-size: 420px;
     }
     
     .head-one{
-        width: 412px;
+        width: 420px;
         margin-top: 50px;
     }
         
